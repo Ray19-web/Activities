@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+    font-family: 'Poller One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    background: dodgerblue;
+    text-align: center;
+    padding: 30px 10px;
+}
+p{
+    font-size: 14px;
+    padding: 10px 30px;
+    padding-top: 30px;
+    text-align: justify;
+}
+ol,ul{
+    padding-left: 40px;
+}
+.one{
+    color: red;
+}
+.two{
+    color:blueviolet;
+}
+.three{
+    color:aqua
+}
+.four{
+    color:aquamarine;
+}
+.five{
+    color:bisque;
+}
+.six{
+    color: greenyellow;
+}
+img{
+    width: 50%;
+    height: 450px;
+    border: dodgerblue groove 30px;
+    margin: 50px 50px;
+    transition: ease .5s;
+}
+img:hover{
+    width: 55%;
+    height: 500px;
+    transition: ease .5s;
+}
+.site{
+    text-decoration: none;
+    background: dodgerblue;
+    padding: 25px 25px;
+    font-size: 14px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease .5s;
+}
+.site:hover{
+    background: white;
+    color: black;
+    font-size: 16px;
+    transition: ease .5s;
+    border: dodgerblue solid 3px;
+}
+table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+table{
+    border: 2px solid dodgerblue;
+}
+tr, th, td{
+    border: 2px solid dodgerblue;
+    padding: 14px;
+}
