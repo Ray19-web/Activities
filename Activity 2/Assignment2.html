@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <title>HTML Forms Assignment</title>
+
+        <link rel="stylesheet" href="style2.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--CONTACT US-->
+        <form action="#" method="post" class="container-one">
+            <h1 style="font-size: 30px; background: dodgerblue;border-radius: 20px;padding: 5% 0% 7% 37%;">Contact Us</h1>
+            <label for="name" style="background: dodgerblue; padding:0px 20px 50px 50px;">Name: </label>
+            <input type="text" id="name" style="background: white; border:none; border-radius: 10px;color:black;"><br>
+            <br>
+            <label for="email" style="background: dodgerblue; padding:0px 29px 50px 50px;">Email: </label>
+            <input type="email" id="email" style="background: white; border:none; border-radius: 10px;color:black;"><br>
+            <br>
+            <label for="textM" style="background: dodgerblue; padding:0px 24px 50px 50px;">Message: </label><br> 
+      
+            <textarea id="textM" style="background: white; border:none; border-radius: 5px;margin:10px 0px 15px 50px;padding: 12px 115px 0px 0px;color:black;"></textarea><br>
+            <input type="submit" value="Submit" style="background:dodgerblue; border:none; border-radius: 5px; color: white; padding:5px 10px;box-shadow: 0px 0px 10px white;margin-left: 50px;cursor: pointer;">
+        </form>
+        <br>
+
+        <!--LOGIN FORM-->
+        <form action="#" method="post" class="container-two">
+            <h1 style="font-size: 30px; background: darkred;border-radius: 20px;padding: 5% 0% 7% 40%;">Login</h1>
+            <label for="userName" style="background:darkred;padding:0px 5px 0px 40px">User Name: </label>
+            <input type="text" id="userName" style="background:white; border:none;border-radius:15px;color:black;"><br>
+            <br>
+            <label for="passwordN" style="background:darkred;padding:0px 19px 0px 40px">Password: </label>
+            <input type="password" id="passwordN" style="background:white; border:none;border-radius:15px;color:black;"><br>
+            <div style="margin:10px;"></div>
+            <input type="submit" value="Login" style="background:darkred;border:none;border-radius:10px;box-shadow: 0px 0px 10px white;margin-left: 50px; padding:1px 15px;cursor: pointer;">
+        </form>
+        <br>
+
+        <!--SURVEY-->
+        <form action="#" method="post" class="container-three">
+            <h1 style="font-size: 30px; background: rgb(177, 130, 0);border-radius: 20px;padding: 5% 0% 7% 40%;">Survey</h1>
+            <label for="nameT" class="Isa" style="background:rgb(177, 130, 0);padding:0px 20px 0px 50px;">Name: </label>
+            <input type="text" id="nameT" style="background:white;border:none;border-radius:15px;color:black;"><br>
+            <div style="margin:10px;"></div>
+            <label for="AgeD" style="background:rgb(177, 130, 0);padding:0px 41px 0px 50px;">Age: </label>
+            <input type="number" id="Aged" style="background:white;border:none;border-radius:15px;color:black"><br>
+            <div style="margin:10px;"></div>
+            <label style="background:rgb(177, 130, 0);padding:0px 41px 0px 50px;">Gender: </label><br>
+            <input type="radio" id="MaleS" style="margin: 0px 0px 0px 90px;">
+            <label for="MaleS" style="background:rgb(177, 130, 0);padding:0px 0px 50px;">Male</label><br>
+            <input type="radio" id="FemaleS" style="margin: 0px 0px 0px 90px;">
+            <label for="FemaleS" style="background:rgb(177, 130, 0);padding:0px 0px 50px;">Female</label><br>
+            <input type="radio" id="otherS" style="margin: 0px 0px 0px 90px;">
+            <label for="otherS" style="background:rgb(177, 130, 0);padding:0px 0px 50px;">Others</label><br>
+
+            <div style="margin:10px;"></div>
+            <label style="background:rgb(177, 130, 0);padding:0px 41px 0px 50px;">Which Programming Language do you Know: </label><br>
+            <input type="checkbox" id="One" style="margin: 0px 0px 0px 100px">
+            <label for="One" style="background:rgb(177, 130, 0)">JAVA</label>
+            <input type="checkbox" id="two">
+            <label for="two" style="background:rgb(177, 130, 0)">JavaScript</label><br>
+            <input type="checkbox" id="three" style="margin: 0px 0px 0px 100px">
+            <label for="three" style="background:rgb(177, 130, 0)">Python</label>
+            <input type="checkbox" id="four">
+            <label for="four" style="background:rgb(177, 130, 0)">C++</label>
+            <input type="checkbox" id="five">
+            <label for="five" style="background:rgb(177, 130, 0)">C#</label><br>
+
+            <div style="margin:10px;"></div>
+            <label for="CommentS" style="background:rgb(177, 130, 0);padding:0px 41px 0px 50px;">Comments: </label><br>
+            <textarea id="comments" style="margin: 0px 0px 0px 90px;background:white;border:none;border-radius:5px;padding:0px 0px 0px 90px;"></textarea><br>
+            <input type="submit" value="submit" style="background:rgb(177, 130, 0);padding:10px 30px;margin:10px 0px 0px 53px;border:none;background:rgb(177, 130, 0);border:none;border-radius:5px;box-shadow: 0px 0px 10px white;margin-left: 50px;cursor: pointer;">
+        </form>
+    </body>
+</html>
